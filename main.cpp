@@ -43,7 +43,7 @@ public:
     int extractMin() {
         if (heap.empty()) {
             cerr << "Heap is empty\n";
-            return -1;  // Sentinel value
+            return -1; 
         }
         if (heap.size() == 1) {
             int minValue = heap.back();
